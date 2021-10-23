@@ -7,7 +7,7 @@ services:
 
 # Pre-testing installs
 install:
-  - npm i -force
+  - npm i force
 
 # Scripts to be run such as tests
 before_script:
