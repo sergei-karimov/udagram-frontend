@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - 14
+  - 13
 
 services:
   - docker
 
 # Pre-testing installs
 install:
-  - npm install force
+  - npm i
 
 # Scripts to be run such as tests
 before_script:
